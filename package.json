@@ -2,7 +2,7 @@
   "scripts": {
     "start": "npm run replica && npm run serve",
     "replica": "dfx stop && dfx start --clean --background && npm run deploy",
-    "build-power-equalizer": "cd power-equalizer && dfx build staging --check",
+    "build-power-equalizer": "cd power-equalizer &&  DFX_MOC_PATH=\"$(vessel bin)/moc\" dfx build staging --check",
     "upgrade:main": "dfx deploy main --argument \"$(cat initArgs.local.did)\"",
     "deploy": "npm run build-power-equalizer && npm run deploy:main && npm run deploy:ledger && npm run deploy:seed && npm run deploy:btcflower && npm run deploy:ethflower && npm run deploy:icpflower && npm run deploy:btcflower_gen2 && npm run mint",
     "deploy:main": "dfx deploy main --argument \"$(cat initArgs.local.did)\" --mode reinstall --yes",

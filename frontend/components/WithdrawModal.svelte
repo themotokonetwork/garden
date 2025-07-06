@@ -1,7 +1,7 @@
 <script lang="ts">
-  import Button from 'fpdao-ui/components/Button.svelte';
-  import Modal from 'fpdao-ui/components/Modal.svelte';
-  import Loader from 'fpdao-ui/components/Loader.svelte';
+  import Button from '@themotokonetwork/fpdao-ui/components/Button.svelte';
+  import Modal from '@themotokonetwork/fpdao-ui/components/Modal.svelte';
+  import Loader from '@themotokonetwork/fpdao-ui/components/Loader.svelte';
   import { Principal } from '@dfinity/principal';
   import { getContext } from 'svelte';
 

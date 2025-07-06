@@ -8,7 +8,7 @@ const config = {
   content: [
     "index.html",
     "./components/**/*.{html,js,svelte,ts}",
-    "./node_modules/fpdao-ui/**/*",
+    "./node_modules/@themotokonetwork/fpdao-ui/**/*",
   ],
   theme: {
     extend: {

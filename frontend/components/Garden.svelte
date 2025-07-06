@@ -4,7 +4,7 @@
   import UnstakedFlower from './UnstakedFlower.svelte';
   import StakedFlower from './StakedFlower.svelte';
   import { Neuron, UserRes } from '../../declarations/main/main.did';
-  import Loader from 'fpdao-ui/components/Loader.svelte';
+  import Loader from '@themotokonetwork/fpdao-ui/components/Loader.svelte';
   import { Collection } from '../types';
   import Rewards from './Rewards.svelte';
   import DisclaimerModal from './DisclaimerModal.svelte';

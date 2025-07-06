@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Button from 'fpdao-ui/components/Button.svelte';
+  import Button from '@themotokonetwork/fpdao-ui/components/Button.svelte';
   import FlowerPreview from './FlowerPreview.svelte';
   import StakeModal from './StakeModal.svelte';
   import { Collection } from '../types';

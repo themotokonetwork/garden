@@ -10,8 +10,8 @@
     "@dfinity/candid": "2.2.0",
     "@dfinity/ledger-icp": "2.6.5",
     "@dfinity/principal": "2.2.0",
-    "date-fns": "^3.3.1",
-    "fpdao-ui": "3.1.2"
+    "@themotokonetwork/fpdao-ui": "3.1.2",
+    "date-fns": "^3.3.1"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^3.0.2",

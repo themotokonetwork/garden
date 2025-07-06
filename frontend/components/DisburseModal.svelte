@@ -1,7 +1,6 @@
 <script lang="ts">
-  import Button from 'fpdao-ui/components/Button.svelte';
-  import Modal from 'fpdao-ui/components/Modal.svelte';
-  import Loader from 'fpdao-ui/components/Loader.svelte';
+  import Modal from '@themotokonetwork/fpdao-ui/components/Modal.svelte';
+  import Loader from '@themotokonetwork/fpdao-ui/components/Loader.svelte';
   import { getContext } from 'svelte';
 
   import { authStore, store } from '../store';
@@ -9,6 +8,7 @@
   import { Principal } from '@dfinity/principal';
   import { getTokenName } from '../utils';
   import { Collection } from '../types';
+  import Button from '@themotokonetwork/fpdao-ui/components/Button.svelte';
 
   export let neuron: Neuron;
   export let collection: Collection;

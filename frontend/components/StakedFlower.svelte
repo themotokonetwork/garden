@@ -1,6 +1,6 @@
 <script lang="ts">
   import { formatDistanceToNowStrict } from 'date-fns';
-  import Button from 'fpdao-ui/components/Button.svelte';
+  import Button from '@themotokonetwork/fpdao-ui/components/Button.svelte';
 
   import FlowerPreview from './FlowerPreview.svelte';
   import DissolveModal from './DissolveModal.svelte';

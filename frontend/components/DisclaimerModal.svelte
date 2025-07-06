@@ -1,6 +1,6 @@
 <script lang="ts">
-  import Button from 'fpdao-ui/components/Button.svelte';
-  import Modal from 'fpdao-ui/components/Modal.svelte';
+  import Button from '@themotokonetwork/fpdao-ui/components/Button.svelte';
+  import Modal from '@themotokonetwork/fpdao-ui/components/Modal.svelte';
 
   let modalOpen = localStorage.getItem('disclaimer-accepted') !== 'true';
 

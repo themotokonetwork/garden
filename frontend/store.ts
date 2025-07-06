@@ -1,5 +1,5 @@
 import { writable, get } from "svelte/store";
-import { AuthStore, createAuthStore } from 'fpdao-ui/auth-store';
+import { AuthStore, createAuthStore } from '@themotokonetwork/fpdao-ui/auth-store';
 import {
   main as garden,
   createActor as createGardenActor,

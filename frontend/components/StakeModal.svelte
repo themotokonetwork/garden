@@ -1,8 +1,8 @@
 <script lang="ts">
   import { getContext } from 'svelte';
-  import Button from 'fpdao-ui/components/Button.svelte';
-  import Modal from 'fpdao-ui/components/Modal.svelte';
-  import Loader from 'fpdao-ui/components/Loader.svelte';
+  import Button from '@themotokonetwork/fpdao-ui/components/Button.svelte';
+  import Modal from '@themotokonetwork/fpdao-ui/components/Modal.svelte';
+  import Loader from '@themotokonetwork/fpdao-ui/components/Loader.svelte';
   import { authStore, store } from '../store';
   import { getCollectionCanisterId, getCollectionDailyRewards, toAccountId, tokenIdentifier } from '../utils';
   import { Collection as CollectionBackend } from 'declarations/main/main.did';
