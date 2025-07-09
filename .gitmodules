@@ -1,0 +1,4 @@
+[submodule "power-equalizer"]
+	path = power-equalizer
+	url = https://github.com/themotokonetwork/power-equalizer.git
+	branch = main
