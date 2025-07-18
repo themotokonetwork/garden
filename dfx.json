@@ -17,6 +17,13 @@
       },
       "source": ["frontend/dist/"]
     },
+    "assets-staging": {
+      "type": "assets",
+      "frontend": {
+        "entrypoint": "frontend/dist/index.html"
+      },
+      "source": ["frontend/dist/"]
+    },
     "ledger": {
       "type": "custom",
       "wasm": "declarations/ledger/ledger.wasm",
